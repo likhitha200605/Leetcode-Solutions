@@ -3,7 +3,7 @@ package Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Palindrome_Partititioning_131 {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
         List<String> ds = new ArrayList<>();

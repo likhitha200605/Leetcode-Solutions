@@ -3,7 +3,7 @@ package Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Permutation_Sequence_60 {
     public String getPermutation(int n, int k) {
         int fact = 1;
         List<Integer> numbers = new ArrayList<>();
