@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Majority_element_2_229 {
     public List<Integer> majorityElement(int[] nums) {
         int count1 = 0;

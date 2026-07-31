@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
     public int thirdMax(int[] nums) {
         Long first = null;
@@ -8,8 +10,8 @@ class Solution {
 
             // Skip duplicates
             if ((first != null && num == first) ||
-                (second != null && num == second) ||
-                (third != null && num == third)) {
+                    (second != null && num == second) ||
+                    (third != null && num == third)) {
                 continue;
             }
 
@@ -17,12 +19,10 @@ class Solution {
                 third = second;
                 second = first;
                 first = (long) num;
-            } 
-            else if (second == null || num > second) {
+            } else if (second == null || num > second) {
                 third = second;
                 second = (long) num;
-            } 
-            else if (third == null || num > third) {
+            } else if (third == null || num > third) {
                 third = (long) num;
             }
         }

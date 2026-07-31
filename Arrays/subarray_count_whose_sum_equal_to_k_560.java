@@ -1,3 +1,5 @@
+import java.util.*;
+
 class subarray_count_whose_sum_equal_to_k_560 {
     public int subarraySum(int[] nums, int k) {
         int prefix = 0;
