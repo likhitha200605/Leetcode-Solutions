@@ -1,4 +1,4 @@
-class Solution {
+class ThirdMaximumElement {
     public int thirdMax(int[] nums) {
         Long first = null;
         Long second = null;
