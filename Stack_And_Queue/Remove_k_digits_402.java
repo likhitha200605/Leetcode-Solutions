@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Remove_k_digits_402 {
     public String removeKdigits(String num, int k) {
         Stack<Character> st = new Stack<>();
