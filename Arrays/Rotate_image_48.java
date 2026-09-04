@@ -3,7 +3,7 @@ public class Rotate_image_48 {
         int n = matrix.length;
         int m = matrix[0].length;
         for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < m; j++) {
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
                 matrix[j][i] = temp;
