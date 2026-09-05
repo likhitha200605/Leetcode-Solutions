@@ -1,4 +1,4 @@
-package Sliding_window.two_pointer;
+package Sliding_window_two_pointer;
 
 public class Maximum_cards_u_can_obtain_1423 {
     public int maxScore(int[] cardPoints, int k) {
