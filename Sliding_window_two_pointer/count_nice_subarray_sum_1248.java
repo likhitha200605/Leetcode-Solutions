@@ -1,7 +1,7 @@
 
 package Sliding_window_two_pointer;
 
-public class count_nice_subarray_sum_1428 {
+public class count_nice_subarray_sum_1248 {
     public int numberOfSubarrays(int[] nums, int k) {
         return atMost(nums,k)-atMost(nums,k-1);
     }
